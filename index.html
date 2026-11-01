@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Free, fast and privacy-friendly calculators and everyday tools.">
+  <meta name="theme-color" content="#101827">
+  <title>Open Utility Hub — Free tools for everyone</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-icon">✳</span> Open Utility Hub</a>
+  <nav><a href="#tools">Tools</a><a href="#about">About</a><button id="themeToggle" class="ghost" aria-label="Toggle theme">☾</button></nav>
+</header>
+<main>
+  <section class="hero">
+    <span class="eyebrow">FREE • OPEN SOURCE • NO SIGN-UP</span>
+    <h1>Small tools.<br><span>Big help.</span></h1>
+    <p>Simple, useful tools for study, work, farming and everyday calculations. Your calculations stay in your browser.</p>
+    <a class="primary" href="#tools">Explore tools <span>→</span></a>
+  </section>
+  <section id="tools" class="tools-section">
+    <div class="section-head"><div><span class="eyebrow">THE TOOLBOX</span><h2>What do you need today?</h2></div><span id="toolCount" class="muted"></span></div>
+    <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search tools (e.g. GST, acres, words)…" aria-label="Search tools"></label>
+    <div class="filters" id="filters">
+      <button class="filter active" data-category="All">All</button><button class="filter" data-category="Calculator">Calculator</button><button class="filter" data-category="Student">Student</button><button class="filter" data-category="Agriculture">Agriculture</button><button class="filter" data-category="Text & Developer">Text & Developer</button><button class="filter" data-category="Date">Date</button>
+    </div>
+    <div id="toolGrid" class="grid"></div>
+  </section>
+  <section id="about" class="about"><span class="eyebrow">OUR PRINCIPLE</span><h2>Useful by default.<br>Private by design.</h2><p>Tools run locally in your browser. This starter project does not send your inputs to a server, create accounts, or track your activity.</p><a href="PRIVACY.md">Read privacy notes →</a></section>
+</main>
+<footer><span>© <span id="year"></span> Open Utility Hub</span><span>Open source under MIT License</span><a href="CONTRIBUTING.md">Contribute</a></footer>
+<dialog id="toolDialog"><div class="dialog-head"><div><span id="dialogCategory" class="eyebrow"></span><h2 id="dialogTitle"></h2></div><button id="closeDialog" class="ghost" aria-label="Close">✕</button></div><div id="toolBody"></div></dialog>
+<script src="app.js"></script>
+</body></html>

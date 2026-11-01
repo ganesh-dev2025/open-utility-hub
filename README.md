@@ -1,50 +1,33 @@
-Open Utility Hub
+# Open Utility Hub
 
-Free, open-source tools for everyone.
+Free, open-source, browser-based tools for everyday calculations, students, agriculture and text tasks.
 
-Open Utility Hub is a collection of simple, fast, mobile-friendly and privacy-conscious tools designed to make everyday tasks easier.
+## Included tools
+- Percentage, GST, EMI, simple interest and compound interest calculators
+- Marks percentage calculator
+- Land area converter (square metres, acres, hectares and guntha)
+- Seed rate estimator
+- Age and date difference calculators
+- Word counter and text case converter
+- JSON formatter
+- Length converter
+- Informational BMI calculator
 
-Features
+## Run locally
+No build step or package installation is required. Open `index.html` in a modern browser, or serve the folder with any static web server.
 
-- Scientific Calculator
-- Percentage Calculator
-- GST Calculator
-- EMI Calculator
-- Age Calculator
-- Unit Converter
-- Agriculture Area Calculator
-- JSON Formatter
-- Text Utilities
-- Study Planner
-- QR Code Generator
+## Deploy with GitHub Pages
+1. Push all repository files to the `main` branch.
+2. Open **Settings → Pages**.
+3. Under Build and deployment, choose **Deploy from a branch**.
+4. Select `main` and `/ (root)`, then Save.
+5. Wait for the Pages URL to appear.
 
-Our Goals
+## Privacy
+Calculations happen in your browser. No backend or analytics are included. Theme preference is stored locally in browser storage. See [PRIVACY.md](PRIVACY.md).
 
-- Free access for everyone
-- Simple and accessible interface
-- Mobile-first design
-- No unnecessary registration
-- Privacy-conscious tools
-- Open-source contributions
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md). Please verify calculations and include tests for new tools.
 
-Technology
-
-- HTML
-- CSS
-- JavaScript
-
-Contributing
-
-Contributions are welcome!
-
-1. Fork this repository.
-2. Create a new branch.
-3. Make your changes.
-4. Test your code.
-5. Submit a pull request.
-
-License
-
-MIT License.
-
-Made with the goal of making useful tools accessible to everyone.
+## License
+MIT. See [LICENSE](LICENSE).
